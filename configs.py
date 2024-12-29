@@ -12,7 +12,7 @@ class Config:
     FSUB = getenv("FSUB", "Telugu_Movies_999")
     CHID = int(getenv("CHID", "-1002292066966"))
     SUDO = list(map(int, getenv("SUDO", "6081617163").split()))
-    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://bestanimeandcartoonsclips:6ChCTALD96W7qkps@cluster0.dt9r1rc.mongodb.net/?retryWrites=true&w=majority")
+    MONGO_URI = getenv("MONGO_URI", "mongodb+srv://animefrnd44:Ig0kIRF69y9IVXrJ@cluster0.fagqdot.mongodb.net/?retryWrites=true&w=majority")
     
 cfg = Config()
 
