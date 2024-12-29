@@ -59,8 +59,8 @@ async def op(_, m :Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("★ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ★", url="https://t.me/Telugu_movies_999"),
-                        InlineKeyboardButton("◎ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ◎", url="https://t.me/+79n2y-MsdjdhYjFl")
+                        InlineKeyboardButton("🫧 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Telugu_movies_999"),
+                        InlineKeyboardButton("❤️‍🩹 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+79n2y-MsdjdhYjFl")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/GojoBro_Leech_bot?startgroup")
                     ]
@@ -85,7 +85,7 @@ async def op(_, m :Message):
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🍀 Check Again 🍀", "chk")
+                    InlineKeyboardButton("🫣 Check Again ", "chk")
                 ]
             ]
         )
@@ -101,8 +101,8 @@ async def chk(_, cb : CallbackQuery):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("★ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ ★", url="https://t.me/Telugu_movies_999"),
-                        InlineKeyboardButton("◎ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ◎", url="https://t.me/+79n2y-MsdjdhYjFl")
+                        InlineKeyboardButton("🫧 ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Telugu_movies_999"),
+                        InlineKeyboardButton("❤️‍🩹 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url="https://t.me/+79n2y-MsdjdhYjFl")
                     ],[
                         InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://t.me/GojoBro_Leech_bot?startgroup")
                     ]
@@ -122,7 +122,7 @@ async def dbtool(_, m : Message):
     x = all_groups()
     tot = int(xx + x)
     await m.reply_text(text=f"""
-⚜️ Chats Stats ⚜️
+🫰 Chats Stats 
 💕 Users : `{xx}`
 ❤‍🔥 Groups : `{x}`
 💗 Total users & groups : `{tot}` """)
